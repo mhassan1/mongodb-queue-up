@@ -16,11 +16,11 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "async": "^2.6.2",
+    "async": "^3.2.6",
     "mongodb4": "npm:mongodb@^4.4.1",
     "mongodb5": "npm:mongodb@^5.7.0",
     "mongodb6": "npm:mongodb@^6.0.0",
-    "tape": "^4.10.1"
+    "tape": "^5.9.0"
   },
   "peerDependencies": {
     "mongodb": "^4 || ^5 || ^6"
