@@ -417,7 +417,7 @@ Use `inFlight` to just get the count.
 ### .incomplete() ###
 
 Returns the total number of messages that are currently incomplete, i.e. that
-have been retrieved, not yet acknowledged, but are NOT being pinged:
+have been retrieved, not yet acknowledged, but may or may not be getting pinged:
 
 ```js
 queue.incomplete((err, count) => {
@@ -430,7 +430,7 @@ Use `listIncomplete` to get the messages, themselves.
 ### .listIncomplete() ###
 
 Returns the list of messages that are currently incomplete, i.e. that
-have been retrieved, not yet acknowledged, but are NOT being pinged:
+have been retrieved, not yet acknowledged, but may or may not be getting pinged:
 
 ```js
 queue.listIncomplete((err, messages) => {
