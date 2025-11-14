@@ -17,6 +17,7 @@
   "dependencies": {},
   "devDependencies": {
     "async": "^3.2.6",
+    "mongodb": "^6.0.0",
     "mongodb4": "npm:mongodb@^4.4.1",
     "mongodb5": "npm:mongodb@^5.7.0",
     "mongodb6": "npm:mongodb@^6.0.0",
