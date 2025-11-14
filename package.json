@@ -1,6 +1,6 @@
 {
   "name": "mongodb-queue-up",
-  "version": "5.4.0",
+  "version": "5.5.0",
   "description": "Message queues which uses MongoDB.",
   "main": "mongodb-queue.js",
   "types": "mongodb-queue.d.ts",
@@ -9,22 +9,24 @@
     "mongodb-queue.d.ts"
   ],
   "scripts": {
-    "test": "npm run test4 && npm run test5 && npm run test6",
+    "test": "npm run test4 && npm run test5 && npm run test6 && npm run test7",
     "test4": "set -e; for FILE in test/*.js; do echo --- $FILE - mongodb v4 ---; node $FILE 4; done",
     "test5": "set -e; for FILE in test/*.js; do echo --- $FILE - mongodb v5 ---; node $FILE 5; done",
-    "test6": "set -e; for FILE in test/*.js; do echo --- $FILE - mongodb v6 ---; node $FILE 6; done"
+    "test6": "set -e; for FILE in test/*.js; do echo --- $FILE - mongodb v6 ---; node $FILE 6; done",
+    "test7": "set -e; for FILE in test/*.js; do echo --- $FILE - mongodb v7 ---; node $FILE 7; done"
   },
   "dependencies": {},
   "devDependencies": {
     "async": "^3.2.6",
-    "mongodb": "^6.0.0",
+    "mongodb": "^7.0.0",
     "mongodb4": "npm:mongodb@^4.4.1",
     "mongodb5": "npm:mongodb@^5.7.0",
     "mongodb6": "npm:mongodb@^6.0.0",
+    "mongodb7": "npm:mongodb@^7.0.0",
     "tape": "^5.9.0"
   },
   "peerDependencies": {
-    "mongodb": "^4 || ^5 || ^6"
+    "mongodb": "^4 || ^5 || ^6 || ^7"
   },
   "homepage": "https://github.com/mhassan1/mongodb-queue-up",
   "repository": {
