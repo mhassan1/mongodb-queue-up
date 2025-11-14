@@ -2,12 +2,12 @@
 
 [![Build Status](https://github.com/mhassan1/mongodb-queue-up/actions/workflows/test.yml/badge.svg)](https://github.com/mhassan1/mongodb-queue-up/actions/workflows/test.yml) [![NPM](https://nodei.co/npm/mongodb-queue-up.png?mini=true)](https://nodei.co/npm/mongodb-queue-up/)
 
-This is a fork of [mongodb-queue@4](https://www.npmjs.com/package/mongodb-queue/v/4.0.0) that adds support for MongoDB Driver v4, v5, and v6.
+This is a fork of [mongodb-queue@4](https://www.npmjs.com/package/mongodb-queue/v/4.0.0) that adds support for MongoDB Driver v4, v5, v6, and v7.
 
 A really light-weight way to create queues with a nice API if you're already
 using MongoDB.
 
-Now compatible with the MongoDB v4, v5, and v6 drivers.
+Now compatible with the MongoDB v4, v5, v6, and v7 drivers.
 
 For MongoDB v3 driver use [mongodb-queue@4](https://www.npmjs.com/package/mongodb-queue/v/4.0.0).
 
@@ -495,6 +495,10 @@ We may add the ability for each function to return a promise in the future so it
 async/await.
 
 ## Releases ##
+
+### 5.5.0 (2025-11-14) ###
+
+* [NEW] Added support for mongodb driver v7
 
 ### 5.4.0 (2023-10-12) ###
 
